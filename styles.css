@@ -32,7 +32,7 @@ html {
 }
 
 .container {
-  height: 600px;
+  height: 800px;
   width: 600px;
   background-color: #f2eccb;
   border-radius: 4px;
@@ -66,4 +66,37 @@ html {
   background: unset;
   border: unset;
   outline: unset;
+  cursor: pointer;
+}
+
+.add {
+  padding: 16px;
+}
+
+.add-form {
+  display: flex;
+  align-items: flex-start;
+}
+
+.add-input {
+  background: unset;
+  border: unset;
+  padding: 0 64px;
+  flex: 1;
+  border-bottom: 1px solid var(--main-red-color);
+  outline: unset;
+  font-family: "Homemade Apple", cursive;
+  font-size: 16px;
+  text-transform: lowercase;
+}
+
+.add-btn {
+  font-size: 1.8rem;
+  font-family: "Bungee Shade", cursive;
+  background: unset;
+  border: unset;
+  padding-right: unset;
+  outline: unset;
+  padding: 0 16px;
+  cursor: pointer;
 }
